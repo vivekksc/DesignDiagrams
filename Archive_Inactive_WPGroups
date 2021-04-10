@@ -1,21 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2021-04-10T12:35:06.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="nEM090rEpHuAgj-8LT6n" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-10T12:43:08.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36" etag="SYIEpgnzjwsIEsNK6jjq" version="14.5.10" type="github">
   <diagram id="u0g5kVjxIunlu-AWiuQf" name="Page-1">
     <mxGraphModel dx="868" dy="1651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-51" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="10" y="320" width="700" height="440" as="geometry" />
-        </mxCell>
         <mxCell id="_s85Bm4XfMiIppcfgUwN-50" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="20" width="700" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#00CC00;" edge="1" parent="1" source="_s85Bm4XfMiIppcfgUwN-14" target="_s85Bm4XfMiIppcfgUwN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-30" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Email group admin/owners&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;confirmation about archival&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-29">
+          <mxGeometry x="0.2593" y="-3" relative="1" as="geometry">
+            <mxPoint x="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-51" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="700" height="440" as="geometry" />
         </mxCell>
         <mxCell id="_s85Bm4XfMiIppcfgUwN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_s85Bm4XfMiIppcfgUwN-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="146" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-10" value="Get the last activity&lt;br&gt;status of groups&lt;br&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;( SP - GetGroupsInactiveStatus )&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-9">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-10" value="Get the last activity&lt;br&gt;status of groups&lt;br&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;( SP - GetGroupsInactiveStatus )&lt;/font&gt;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-9">
           <mxGeometry x="-0.0928" y="1" relative="1" as="geometry">
             <mxPoint x="-29" y="71" as="offset" />
           </mxGeometry>
@@ -45,7 +53,7 @@
         <mxCell id="_s85Bm4XfMiIppcfgUwN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_s85Bm4XfMiIppcfgUwN-14" target="_s85Bm4XfMiIppcfgUwN-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-20" value="Email group admin/owners&lt;br&gt;reminder about archival" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-19">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-20" value="Email group admin/owners&lt;br&gt;reminder about archival" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-19">
           <mxGeometry x="-0.2952" y="-2" relative="1" as="geometry">
             <mxPoint x="47" y="-2" as="offset" />
           </mxGeometry>
@@ -58,12 +66,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-23" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontColor=#00CC00;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-22">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-23" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontColor=#00CC00;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-22">
           <mxGeometry x="-0.8542" relative="1" as="geometry">
             <mxPoint x="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-24" value="&lt;font color=&quot;#000000&quot;&gt;Update (increment)&lt;br&gt;NumberOfRemindersSent&lt;br&gt;in&amp;nbsp;&lt;/font&gt;&lt;i style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;GroupInactiveStatus&lt;/b&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;table&lt;i&gt;&amp;nbsp;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SP -&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SaveGroupsInactiveStatus&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-22">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-24" value="&lt;font color=&quot;#000000&quot;&gt;Update (increment)&lt;br&gt;NumberOfRemindersSent&lt;br&gt;in&amp;nbsp;&lt;/font&gt;&lt;i style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;GroupInactiveStatus&lt;/b&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;table&lt;i&gt;&amp;nbsp;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SP -&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SaveGroupsInactiveStatus&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-22">
           <mxGeometry x="-0.3758" y="1" relative="1" as="geometry">
             <mxPoint x="9" y="20" as="offset" />
           </mxGeometry>
@@ -76,22 +84,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-27" value="&lt;font color=&quot;#ff0000&quot;&gt;NO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-26">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-27" value="&lt;font color=&quot;#ff0000&quot;&gt;NO&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;fontStyle=1;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-26">
           <mxGeometry x="-0.7894" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-28" value="&lt;font color=&quot;#000000&quot;&gt;Request to archive group(s)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-26">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-28" value="&lt;font color=&quot;#000000&quot;&gt;Request to archive group(s)&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-26">
           <mxGeometry x="-0.1129" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#00CC00;" edge="1" parent="1" source="_s85Bm4XfMiIppcfgUwN-14" target="_s85Bm4XfMiIppcfgUwN-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-30" value="&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;Email group admin/owners&lt;/span&gt;&lt;br style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;confirmation about archival&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-29">
-          <mxGeometry x="0.2593" y="-3" relative="1" as="geometry">
-            <mxPoint x="-28" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_s85Bm4XfMiIppcfgUwN-14" value="For each group, if&lt;br&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: left&quot;&gt;NumberOfRemindersSent &amp;gt; 3&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeColor=#7EA6E0;" vertex="1" parent="1">
@@ -160,7 +160,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_s85Bm4XfMiIppcfgUwN-49" value="&lt;font color=&quot;#000000&quot;&gt;Update (increment)&lt;br&gt;NumberOfRemindersSent,&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;IsGroupArchivalRequestedToWP&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;DateGroupArchivalRequestedToWP&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;in&amp;nbsp;&lt;/font&gt;&lt;i style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;GroupInactiveStatus&lt;/b&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;table&lt;i&gt;&amp;nbsp;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SP -&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SaveGroupsInactiveStatus&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-48">
+        <mxCell id="_s85Bm4XfMiIppcfgUwN-49" value="&lt;font color=&quot;#000000&quot;&gt;Update (increment)&lt;br&gt;NumberOfRemindersSent,&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;IsGroupArchivalRequestedToWP&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;DateGroupArchivalRequestedToWP&lt;br&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;in&amp;nbsp;&lt;/font&gt;&lt;i style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&lt;b&gt;GroupInactiveStatus&lt;/b&gt;&lt;/i&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;table&lt;i&gt;&amp;nbsp;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;&lt;b style=&quot;color: rgb(0 , 0 , 0) ; font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SP -&amp;nbsp;&lt;/font&gt;&lt;/b&gt;&lt;b style=&quot;font-size: 12px ; text-align: left ; background-color: rgb(248 , 249 , 250)&quot;&gt;&lt;font color=&quot;#b3b3b3&quot;&gt;SaveGroupsInactiveStatus&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;span style=&quot;font-size: 12px ; text-align: left&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/span&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#00CC00;labelBorderColor=none;" vertex="1" connectable="0" parent="_s85Bm4XfMiIppcfgUwN-48">
           <mxGeometry x="-0.4953" y="-1" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
