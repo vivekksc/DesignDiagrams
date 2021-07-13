@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-13T13:05:41.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="tUa5oexLmZYKUN5AzBfe" version="14.8.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-13T13:09:43.200Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="7_6ysJst0isNcfKcd93C" version="14.8.6" type="github">
   <diagram id="1iAfnXCfLlzTQEmagdT9" name="Page-1">
     <mxGraphModel dx="1201" dy="493" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -232,6 +232,44 @@
         </mxCell>
         <mxCell id="ePm8Xnh-taZD7xGUpZaN-76" value="Bind recommendations to the object to save in DB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;size=0.06666666666666667;" vertex="1" parent="1">
           <mxGeometry x="350" y="1050" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-86" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="559.99" y="320.47" width="270" height="259.53" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePm8Xnh-taZD7xGUpZaN-92" target="ePm8Xnh-taZD7xGUpZaN-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-88" value="ACR ADF - Migration&lt;br&gt;Get details of Project &lt;br&gt;that has cloud neither opted in nor out.&lt;br&gt;(ProjectId, COneId,&lt;br&gt;EngagementCode, IsAmendment)&lt;br&gt;&lt;br&gt;3.1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ePm8Xnh-taZD7xGUpZaN-87">
+          <mxGeometry x="-0.2812" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ePm8Xnh-taZD7xGUpZaN-92">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455.99" y="357.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-90" value="&amp;nbsp;Foreach projectId&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ePm8Xnh-taZD7xGUpZaN-89">
+          <mxGeometry x="-0.2477" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-91" value="3.2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="ePm8Xnh-taZD7xGUpZaN-89">
+          <mxGeometry x="0.644" relative="1" as="geometry">
+            <mxPoint x="44" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-92" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/Data_Factory.svg;" vertex="1" parent="1">
+          <mxGeometry x="683.49" y="341.60999999999996" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-93" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="688.01" y="520" width="23.98" height="31.97" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-94" value="ACR DB" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="669.99" y="550.97" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ePm8Xnh-taZD7xGUpZaN-95" value="MIGRATION" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#36393d;fillColor=#cce5ff;" vertex="1" parent="1">
+          <mxGeometry x="729.99" y="330.13" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
