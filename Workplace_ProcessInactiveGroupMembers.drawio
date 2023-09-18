@@ -1,43 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2023-09-15T14:28:03.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_FtB347Lhkm1gL4XNFM-" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T10:56:08.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="K9rvQMkP7dZIrjYS4o3p" version="21.7.5" type="github">
   <diagram name="Page-1" id="O4I6horIVgjZpuEEm73X">
-    <mxGraphModel dx="1730" dy="478" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="1578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-1" value="&lt;b&gt;Workplace&lt;/b&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-2106/24/social_media_social_media_logo_workplace-128.png" parent="1" vertex="1">
-          <mxGeometry x="510" y="80" width="78" height="78" as="geometry" />
+        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-1" value="&lt;b&gt;Workplace&lt;/b&gt;" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/social-media-2106/24/social_media_social_media_logo_workplace-128.png;labelPosition=center;align=center;" parent="1" vertex="1">
+          <mxGeometry x="37.5" y="-120" width="73" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-2" value="&lt;b&gt;Database&lt;/b&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="1" vertex="1">
-          <mxGeometry x="200" y="320" width="48" height="64" as="geometry" />
+        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-2" value="&lt;b&gt;Workplce Analytics&lt;br&gt;SQL Database&lt;br&gt;&lt;/b&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/databases/SQL_Database.svg;" parent="1" vertex="1">
+          <mxGeometry x="50" y="380" width="48" height="64" as="geometry" />
         </mxCell>
         <mxCell id="4m4jQbIAZqwAoaxDc_Ss-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=-0.031;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" parent="1" source="4m4jQbIAZqwAoaxDc_Ss-3" target="4m4jQbIAZqwAoaxDc_Ss-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.038;entryY=0.628;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4m4jQbIAZqwAoaxDc_Ss-3" target="4m4jQbIAZqwAoaxDc_Ss-1" edge="1">
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-9" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;3.&amp;nbsp;&lt;/b&gt;Fetches group member inactive for n days&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;from&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;GroupContent&lt;/i&gt;&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;GroupMember&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/i&gt;&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;and&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;Seen&amp;nbsp;&lt;/i&gt;&lt;span style=&quot;font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;tables&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4m4jQbIAZqwAoaxDc_Ss-4">
+          <mxGeometry x="0.18" y="26" relative="1" as="geometry">
+            <mxPoint x="35" y="70" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.02;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4m4jQbIAZqwAoaxDc_Ss-3" target="4m4jQbIAZqwAoaxDc_Ss-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.42;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4m4jQbIAZqwAoaxDc_Ss-3" target="4m4jQbIAZqwAoaxDc_Ss-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="219" y="240" />
-              <mxPoint x="401" y="240" />
-            </Array>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-15" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left; background-color: rgb(251, 251, 251);&quot;&gt;4.&amp;nbsp;&lt;/b&gt;Email group members" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-HJDN0PHnJaeZ9SQUdy2-11">
+          <mxGeometry x="-0.1277" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-13" value="&lt;b style=&quot;border-color: var(--border-color); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;5.&lt;/b&gt;&amp;nbsp;Remove inactive members from group&lt;br style=&quot;border-color: var(--border-color); font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;on n+y days&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.517;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;" edge="1" parent="1" source="4m4jQbIAZqwAoaxDc_Ss-3" target="4m4jQbIAZqwAoaxDc_Ss-1">
+          <mxGeometry x="-0.4539" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4m4jQbIAZqwAoaxDc_Ss-3" value="&lt;b&gt;Process inactive groub members&lt;/b&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/internet_of_things/Logic_Apps.svg;" parent="1" vertex="1">
           <mxGeometry x="190" y="100" width="58" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-5" value="&lt;b&gt;1. &lt;/b&gt;Fetches group member inactive for n days&lt;br&gt;from &lt;i&gt;GroupContent&lt;/i&gt;, &lt;i&gt;GroupMember &lt;br&gt;&lt;/i&gt;and &lt;i&gt;Seen &lt;/i&gt;tables" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="190" width="260" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="4m4jQbIAZqwAoaxDc_Ss-7" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" parent="1" vertex="1">
-          <mxGeometry x="380" y="283.5" width="50" height="26.5" as="geometry" />
+          <mxGeometry x="481" y="118" width="50" height="26.5" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-8" value="&lt;b&gt;2. &lt;/b&gt;Email group members&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;a. Reminder 1 on n days&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;b. Reminder 2 on n+x days&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;c. Removed from group - on n+y days&lt;/span&gt;&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="380" y="310" width="250" height="70" as="geometry" />
+        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-8" value="&lt;b&gt;Email&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;a. Reminder 1 on n days&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;b. Reminder 2 on n+x days&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt; &lt;/span&gt;c. Removed from group - on n+y days&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="441" y="140.5" width="230" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="4m4jQbIAZqwAoaxDc_Ss-12" value="&lt;b&gt;3.&lt;/b&gt;&amp;nbsp;Remove inactive members from group&lt;br&gt;on n+y days" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="260" y="80" width="240" height="40" as="geometry" />
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0.483;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-HJDN0PHnJaeZ9SQUdy2-6" target="4m4jQbIAZqwAoaxDc_Ss-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-8" value="&lt;b&gt;1.&lt;/b&gt; Get Groups Members" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-HJDN0PHnJaeZ9SQUdy2-7">
+          <mxGeometry x="-0.4279" y="-43" relative="1" as="geometry">
+            <mxPoint x="-33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0.5;exitY=1.103;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="-HJDN0PHnJaeZ9SQUdy2-6" target="4m4jQbIAZqwAoaxDc_Ss-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-50" y="164" />
+              <mxPoint x="-50" y="412" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-16" value="&lt;b&gt;2&lt;/b&gt;. Sync Group Members" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-HJDN0PHnJaeZ9SQUdy2-10">
+          <mxGeometry x="-0.3669" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-6" value="&lt;b&gt;Sync groub members&lt;/b&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/internet_of_things/Logic_Apps.svg;" vertex="1" parent="1">
+          <mxGeometry x="-88" y="100" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-14" value="&lt;b&gt;1&lt;/b&gt;. Sync Seen data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.021;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="-HJDN0PHnJaeZ9SQUdy2-12" target="4m4jQbIAZqwAoaxDc_Ss-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-180" y="131" />
+              <mxPoint x="-180" y="432" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-HJDN0PHnJaeZ9SQUdy2-12" value="&lt;b&gt;BigDataAnalytics&lt;br&gt;Azure Databricks&lt;/b&gt;" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;labelBackgroundColor=default;labelBorderColor=none;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-339.9999999999999" y="97.25" width="62.8" height="68" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
